@@ -1,0 +1,35 @@
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item:not(:first-of-type) {
+    margin-left: 1.5em;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar {
+    width: 100vw;
+    height: 7.5vh;
+    background: black;
+    color: #fff;
+    padding: 0 5vw;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nohope {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+  }
