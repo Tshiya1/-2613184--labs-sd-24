@@ -5,7 +5,8 @@ header{
 }
 
 .links {
-  float: right;
+ display: flex;
+  justify-content:space-between; 
 }
 
 section {
