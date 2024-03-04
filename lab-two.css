@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  allign-items: center;
+  
 }
 .links li {
   float:left;}
