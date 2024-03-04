@@ -4,12 +4,4 @@ header{
   allign-items: center;
 }
 
-.links {
- display: flex;
-  justify-content:space-between; 
-}
 
-body {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;}
