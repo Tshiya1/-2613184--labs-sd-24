@@ -17,9 +17,15 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
-.topnav {
+.links {
   list-style-type: none; /* Removes bullets */
   margin: 0;
   padding: 0;
 }
+.boxes{
+  display: flex;
+  allign-items: center;
+  flex-direction: row;
+  justify-content: center;}
+
 
