@@ -4,4 +4,6 @@ header{
   allign-items: center;
 }
 
-
+nav {
+  float: right;
+}
