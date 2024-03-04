@@ -11,6 +11,15 @@ body {
   allign-items: center;
 }
 .links li {
-  float:right;}
-
+  float:left;}
+.links a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav {
+  list-style-type: none; /* Removes bullets */
+  margin: 0;
+  padding: 0;
+}
 
