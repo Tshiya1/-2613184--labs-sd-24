@@ -40,7 +40,7 @@ body {
  justify-content: center;}
 
 .s1 { display: flex;
-  allign-items: center;
+  
  justify-content: center;
     flex-direction: column;
     }
