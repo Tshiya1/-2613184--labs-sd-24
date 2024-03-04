@@ -4,4 +4,9 @@ header{
   allign-items: center;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 
