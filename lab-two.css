@@ -9,7 +9,7 @@ header{
   justify-content:space-between; 
 }
 
-section {
+body {
   display: flex;
   flex-direction: row;
   justify-content: center;}
