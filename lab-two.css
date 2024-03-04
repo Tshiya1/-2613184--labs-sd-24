@@ -19,7 +19,7 @@ header{
 }
 .boxes{
   display: flex;
-  align-items: center
+  align-item : center;
   flex-direction: row;
  }
 
