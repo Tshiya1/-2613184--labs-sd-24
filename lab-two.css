@@ -36,10 +36,15 @@ body {
 .links article{
   display: flex;
   allign-items: center;
+  flex-direction: column;
  justify-content: center;}
 
 .s1 { display: flex;
   allign-items: center;
- justify-content: center;}
+ justify-content: center;
+    flex-direction: column;
+    }
+
+
 
 
