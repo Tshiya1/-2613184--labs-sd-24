@@ -4,12 +4,7 @@ header{
   align-items: center;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
-}
+
 .links li {
   float:left;}
 .links a {
@@ -35,14 +30,16 @@ body {
 
 .links article{
   display: flex;
-  align-items: center;
   flex-direction: column;
- justify-content: center;}
+  justify-content: center;
+  align-items: center;
+  
+ }
 
 .s1 { display: flex;
   justify-content: center;
     flex-direction: column;
-     text-align: center
+      align-items: center;
     }
 
 
