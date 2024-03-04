@@ -28,4 +28,10 @@ body {
   flex-direction: row;
   justify-content: center;}
 
+.links article{
+  display: flex;
+  allign-items: center;
+  flex-direction: column;
+  justify-content: center;}
+
 
