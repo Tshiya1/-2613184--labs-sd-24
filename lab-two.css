@@ -19,9 +19,9 @@ header{
 }
 .boxes{
   display: flex;
-  allign-items: center;
+  align-items: center
   flex-direction: row;
-  justify-content: center;}
+ }
 
 .title{
   display: flex;
