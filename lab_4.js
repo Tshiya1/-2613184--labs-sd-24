@@ -25,7 +25,7 @@ async function fetchCountries(url) {
   
 function findInfo(countries,countryName){
     alert("pls work");
-    alert(countries.length);
+   
 for(let i = 0; i<countries.length; i++){
     alert("pls work");
 if(countries[i].names.common==countryName || countries[i].names.common == countryName){
