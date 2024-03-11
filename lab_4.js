@@ -15,7 +15,7 @@ async function fetchCountries(url) {
         throw new Error("Network response was not OK");
       }
       const countries = response.json();
-      findInfo(JSON.parse(countries));
+      findInfo(countries);
     } catch (error) {
       console.error("There has been a problem with your fetch operation:", error);
     }
