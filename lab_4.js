@@ -3,6 +3,7 @@ const countryName = document.getElementById("countryName");
 const button = document.getElementById("getCountryInfo");
 
 button.addEventListener("click", function getCountryInfo(){
+    alert("pls work");
 fetchCountries("https://restcountries.com/v3.1/all");
 });
 
