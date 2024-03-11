@@ -9,15 +9,16 @@ fetchCountries("https://restcountries.com/v3.1/all");
 
 async function fetchCountries(url) {
     try {
-        alert("pls work");
+      alert("pls work");
       const response = await fetch(url);
       if (!response.ok) {
         throw new Error("Network response was not OK");
       }
       const countries = response.json();
-      findInfo(countries);
+      const country = document.getElementById("input");
+      findInfo(countries,country);
     } catch (error) {
-      console.error("There has been a problem with your fetch operation:", error);
+      alert("Failed');
     }
   }
   
