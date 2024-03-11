@@ -14,7 +14,7 @@ async function fetchCountries(url) {
       if (!response.ok) {
         throw new Error("Network response was not OK");
       }
-      const countries = response.json();
+      const countries = await response.json();
       const country = document.getElementById("countryName");
       alert(response.json());
       findInfo(countries,country.value);
