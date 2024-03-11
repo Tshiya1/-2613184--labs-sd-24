@@ -8,6 +8,7 @@ fetchCountries("https://restcountries.com/v3.1/all");
 
 async function fetchCountries(url) {
     try {
+        alert("pls work");
       const response = await fetch(url);
       if (!response.ok) {
         throw new Error("Network response was not OK");
@@ -21,6 +22,7 @@ async function fetchCountries(url) {
   
 function findInfo(countries,countryName){
 for(let i = 0; i<countries.length; i++){
+    alert("pls work");
 if(countries[i].names.common==countryName || countries[i].names.common == countryName){
 getInfo(countries[i]);
 getNeighbours(countries[i],countries);
@@ -34,6 +36,7 @@ else{
 }
 
 function getInfo(country){
+    alert("pls work");
 const art = document.getElementById("countryInfo");
 const Capital = document.createElement('p');
 const Population = document.createElement('p');
