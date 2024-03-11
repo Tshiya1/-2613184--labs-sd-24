@@ -3,7 +3,7 @@ const countryName = document.getElementById("countryName");
 const button = document.getElementById("getCountryInfo");
 
 button.addEventListener("click", function getCountryInfo(){
-
+fetchCountries("https://restcountries.com/v3.1/all");
 });
 
 async function fetchCountries(url) {
