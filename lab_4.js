@@ -15,7 +15,7 @@ async function fetchCountries(url) {
         throw new Error("Network response was not OK");
       }
       const countries = response.json();
-      const country = document.getElementById("input");
+      const country = document.getElementById("countryName");
       findInfo(countries,country);
     } catch (error) {
       alert("Failed');
