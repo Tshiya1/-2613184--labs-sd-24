@@ -1,6 +1,6 @@
 const countries = "https://restcountries.com/v3.1/all";
 const countryName = document.getElementById("countryName");
-const button = document.getElementById("getCountryInfo");
+const button = document.getElementById("getCountryinfo");
 
 button.addEventListener("click", function getCountryInfo(){
     alert("pls work");
