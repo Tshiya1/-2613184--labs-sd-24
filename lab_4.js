@@ -16,7 +16,7 @@ async function fetchCountries(url) {
       }
       const countries = response.json();
       const country = document.getElementById("countryName");
-      findInfo(countries,country);
+      findInfo(countries,country.value);
     } catch (error) {
       alert("Failed");
     }
