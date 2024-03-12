@@ -24,12 +24,14 @@ header{
   display: flex;
   justify-content: center;
   flex-direction: row;
+  padding-bottom: 50px;
  }
 
 .title{
   display: flex;
   align-items: center;
-  justify-content: center;}
+  justify-content: center;
+matgin-bottom: 1px;}
 
 .links article{
   display: flex;
@@ -49,7 +51,7 @@ article{ display: flex;
   justify-content: center;
     flex-direction: column;
        align-items: center;
-       border: 1px sloid black;}
+       border: 1px solid grey;}
   
 footer{
 display: flex;
@@ -59,4 +61,15 @@ color: white;
 align-items: center;
 }
 
+img{
+margin-bottom:15px;
+margin-left:10px;
+margin-right:10px;
+}
+h2{
+  margin:1px;
+}
+p{
+margin: 1px;
+}
 
