@@ -1,6 +1,6 @@
 header{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   color: white;
   background-color: black;
@@ -45,6 +45,7 @@ matgin-bottom: 1px;}
   justify-content: center;
     flex-direction: column;
        align-items: center;
+     padding-top:10px;
     }
 
 article{ display: flex;
@@ -56,7 +57,7 @@ article{ display: flex;
 footer{
 display: flex;
 justify-content: center;
-background-color: solid black;
+background-color: black;
 color: white;
 align-items: center;
 }
