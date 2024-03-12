@@ -3,7 +3,7 @@ header{
   justify-content: space-between;
   align-items: center;
   color: white;
-  background-colour: black;
+  background-color: black;
 }
 
 
@@ -13,6 +13,7 @@ header{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: white;
 }
 .links {
   list-style-type: none; /* Removes bullets */
