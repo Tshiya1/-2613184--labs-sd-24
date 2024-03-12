@@ -45,7 +45,7 @@ matgin-bottom: 1px;}
   justify-content: center;
     flex-direction: column;
        align-items: center;
-     padding-top:30px;
+     padding-top:20px;
     }
 
 article{ display: flex;
@@ -75,4 +75,7 @@ margin: 1px;
 }
 .about{
   margin-bottom:1px}
+nav{
+  font-size:large;
+  font-weight:bold;}
 
